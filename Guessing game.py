@@ -57,7 +57,7 @@ def play_again():
             return False
         else:
             print("⚠️ Please enter 'yes' or 'no'.")
-
+#choice to play again or not
 def number_guessing_game():
     """Coordinates the flow of the game."""
     print_welcome_message()
@@ -67,6 +67,6 @@ def number_guessing_game():
             print("\n🎮 Thanks for playing, *dead*. 🎮")
             break
 
-
+#runs the game 
 if __name__ == "__main__":
     number_guessing_game()
